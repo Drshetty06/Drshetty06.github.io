@@ -1,0 +1,309 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid grey;
+  transition: border-bottom 0.5s;
+}
+
+
+.info {
+  height: 22px;
+  border-bottom: 1px solid grey;
+  transition: border-bottom 0.5s;
+}
+
+
+
+.active-nav-link {
+  border-bottom: 1px solid grey;
+}
+
+
+
+.active-nav-link a {
+  color:grey!important;
+}
+
+.nav-link-wrapper a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+.portfolio-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+  font-weight: 600;
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
+ 
+body{
+	margin:0;
+	font-family: sans-serif;
+	background-color: #dddddd;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1140px;
+	background-color: #ffffff;
+	height:auto;
+	margin:40px auto;
+	padding:20px;
+}
+h1{
+	font-size:30px;
+	margin:0;
+}
+.clear{
+	clear: both;
+}
+
+
+header{
+ float:left;
+ width: 100%;
+ background-color:#dddddd; 
+ text-align: justify;
+ padding:130px 15px;
+ margin-bottom:20px;
+}
+
+.section2{
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.heading{
+  text-align: center;
+
+}
+
+.section1{
+ float:left;
+ width: 100%;
+ background-color:#dddddd; 
+ text-align: justify;
+ padding:50px 10px;
+ margin-bottom:20px;
+}
+
+.section1 .content{
+	float:left;
+	width: 100%;
+	margin-top:60px;
+}
+
+.section1 .content .card{
+width:25%;
+float: left;
+padding:0px 10px;
+text-align: justify;
+}
+
+.section1 .content .card .box{
+	background-color:gray;
+	font-size:30px;
+	color:#fff;
+	padding:0px 0px;
+}
+
+.section2{
+ float:left;
+ width: 100%;
+ background-color:#dddddd; 
+ text-align: justify;
+ padding:50px 10px;
+ margin-bottom:20px;
+}
+
+.section2 .content{
+float: left;
+width: 100%;
+margin-top:60px;
+}
+
+.section2 .content .left{
+	width: 50%;
+	float: left;
+	padding:0px 10px;
+
+}
+.section2 .content .left .card{
+	padding:200px 15px;
+	font-size:30px;
+	color:#fff;
+	background-color: gray;
+}
+.section2 .content .right{
+	width: 50%;
+	float: left;
+	padding: 0px 10px;
+}
+.section2 .content .right .card{
+	padding:48px 15px;
+	font-size:30px;
+	color:#fff;
+	background-color: gray;
+	margin-bottom:20px;
+}
+
+
+footer{
+ float:left;
+ width: 100%;
+ background-color:#dddddd; 
+ text-align: center;
+ padding:50px 10px;
+ 
+}
+
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
